@@ -1,0 +1,44 @@
+/* For logo */
+.log{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for website name */
+.para{
+    align-self: center;
+    margin:7px;
+}
+.f-style{
+    font-family: "Bebas Neue,cursive";
+}
+
+.nav-link {
+    color: rgb(255 255 255) !important;
+    font-weight: 400;
+}
+.card-custom {
+    height: 100%; /* Ensures all cards take the full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Adjust text size for small screens */
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 10px; /* Moves caption up */
+        text-align: center;
+    }
+
+    .slide-title {
+        font-size: 18px; /* Smaller headings */
+    }
+
+    .slide-text {
+        font-size: 14px; /* Smaller text */
+    }
+}
